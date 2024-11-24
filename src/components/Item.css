@@ -1,0 +1,11 @@
+.but {
+  @apply text-base mt-5 border-[1px] border-solid border-[#0040D6] rounded-xl px-3 py-[9px] cursor-pointer font-bold text-[#0040D6] hover:bg-[#E5E7E9];
+}
+
+.card {
+  @apply flex flex-row  space-x-7 mx-auto w-[90%] h-[320px] sm:mx-auto lg:flex lg:flex-col lg:w-[366px] lg:h-[430px]  bg-white lg:text-center p-10 rounded-xl border-[1px] border-gray-500 shadow-custom-dark lg:mx-0 lg:space-x-0;
+}
+
+.img {
+  @apply w-full  lg:w-2/5 lg:mx-auto lg:h-auto;
+}
